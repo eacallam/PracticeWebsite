@@ -1,0 +1,43 @@
+﻿
+/*block rule - basic structure of CSS*/
+/*
+    p is a example of a tag selector
+    You can also make a class, which is a specified rule for a block.
+    Color is a property and olive is a value.
+    firstParagraph is an example of a class.
+    You can also create an id, but you can only use an id once.
+    Can add , to apply to multiple areas.
+    
+*/
+p, strong{
+    color:olive;
+}
+
+.quote{
+    background-color:lightgoldenrodyellow;
+    font-family:'Trebuchet MS';
+    font-size: 14px;
+}
+
+.firstHeader{
+    font-family:Arial;
+}
+
+.cssPic{
+    width:415px;
+    height:210px;
+    border-color:darkslategray;
+}
+
+.centerAlign{
+    text-align: center;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+h1{
+    color:darkolivegreen;
+    background-color:lightgoldenrodyellow;
+}
